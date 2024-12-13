@@ -14,7 +14,7 @@ const EndBar = () => {
                   <div className="d-flex">
                     <Image
                       src={selectedMusic.album.cover_xl}
-                      style={{ maxWidth: "80px", maxHeight: "80px" }}
+                      style={{ maxWidth: "88px" }}
                     />
                     <div className="align-content-center ms-2">
                       <p className="d-block mb-0">
@@ -33,7 +33,7 @@ const EndBar = () => {
                 ) : (
                   ""
                 )}
-                <Col sm={6} md={4} className="playerControls">
+                <Col sm={6} md={5} className="playerControls mt-2 ">
                   <div className="d-flex">
                     <a href="#">
                       <Image
