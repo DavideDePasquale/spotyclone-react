@@ -138,7 +138,7 @@ ul {
   justify-content: space-evenly;
 }
 
-.mainLinks a {
+.mainLinks .special {
   color: white;
   font-weight: 700;
   font-size: 12px;
@@ -146,7 +146,7 @@ ul {
   text-decoration: none;
 }
 
-.mainLinks a:hover {
+.mainLinks .special:hover {
   text-decoration: none;
   opacity: 1;
   transition: 0.3s;
