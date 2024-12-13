@@ -35,7 +35,7 @@ const MainSection = ({ nomeArtista, genres }) => {
     <>
       <Row>
         <Col>
-          <div className="mt-3" style={{ color: "white" }}>
+          <div className="mt-4" style={{ color: "white" }}>
             <h2>{genres}</h2>
             <div className="d-flex flex-wrap">
               {musica.slice(0, 4).map((track) => (
